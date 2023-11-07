@@ -57,7 +57,7 @@ const CANVAS_WIDTH = (canvas.width = 600);
 const CANVAS_HEIGHT = (canvas.height = 600);
 // Bring image
 const ghostImage = new Image(); // Image constructor
-ghostImage.src = '/animation/ghost/img/ghost-Sheet.png';
+ghostImage.src = './img/ghost-Sheet.png';
 
 function animate() {
   ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
