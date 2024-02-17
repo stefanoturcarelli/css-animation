@@ -1,0 +1,30 @@
+.btn {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 20px 40px;
+  border-radius: 8px;
+  font-size: 28px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  color: #212121;
+}
+
+.btn-1 {
+  background: linear-gradient(to right, transparent 50%, #212121 50%);
+  color: #212121;
+  border: 3px solid #212121;
+  background-size: 200%;
+  background-position: -0%;
+}
+
+.btn-1:hover {
+  color: #f8f8f8;
+  background-position: -100%;
+}
