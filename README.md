@@ -11,7 +11,7 @@ CSS animation is a technique to create dynamic visual effects in web pages using
 
 
 ```html
-		<button class="btn btn-1">Button 1</button>
+<button class="btn btn-1">Button 1</button>
 ```
 
 ```css
